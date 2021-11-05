@@ -97,7 +97,7 @@ module.exports = async function (config) {
     }
   };
 
-  let executablePath = "/usr/bin/chromium-browser" // for linux machines
+  let executablePath = "/usr/bin/chromium" // for linux machines
   if (process.platform === "darwin") {
     executablePath = "/usr/local/bin/chromium" // for macOS machines
   } else if(process.platform === "win32") {
